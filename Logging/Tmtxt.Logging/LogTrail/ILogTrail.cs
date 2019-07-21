@@ -16,7 +16,7 @@ namespace Tmtxt.Logging.LogTrail
         /// <param name="title"></param>
         /// <param name="message"></param>
         /// <param name="startedAt"></param>
-        void Add(LogLevel logLevel, string title, object message, DateTime? startedAt = null);
+        void Push(LogLevel logLevel, string title, object message, DateTime? startedAt = null);
 
         /// <summary>
         /// Flush out this log instance

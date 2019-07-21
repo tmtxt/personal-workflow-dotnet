@@ -9,7 +9,7 @@ namespace Tmtxt.Logging.ConsoleApp
         {
             var logTrail = new LogTrail.LogTrail();
 
-            logTrail.Add(LogLevel.Info, "Event 1", "First message");
+            logTrail.Push(LogLevel.Info, "Event 1", "First message");
 
             Console.WriteLine("End");
         }

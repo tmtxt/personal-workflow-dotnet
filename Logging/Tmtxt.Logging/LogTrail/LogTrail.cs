@@ -22,7 +22,7 @@ namespace Tmtxt.Logging.LogTrail
 
         #region Implement ILogTrail
 
-        public void Add(LogLevel logLevel, string title, object message, DateTime? startedAt = null)
+        public void Push(LogLevel logLevel, string title, object message, DateTime? startedAt = null)
         {
             lock (Lock)
             {
