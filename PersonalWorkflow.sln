@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tmtxt.Logging", "Tmtxt.Logging\Tmtxt.Logging.csproj", "{8626E791-CE9F-4A81-9366-3662219F4E03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tmtxt.Logging", "Logging\Tmtxt.Logging\Tmtxt.Logging.csproj", "{8626E791-CE9F-4A81-9366-3662219F4E03}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tmtxt.Logging.ConsoleApp", "Logging\Tmtxt.Logging.ConsoleApp\Tmtxt.Logging.ConsoleApp.csproj", "{373391AE-B32D-428E-B468-40C88CC28AE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{8CA219AD-B1EC-48A9-B126-7A641D2C758E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{373391AE-B32D-428E-B468-40C88CC28AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{373391AE-B32D-428E-B468-40C88CC28AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{373391AE-B32D-428E-B468-40C88CC28AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{373391AE-B32D-428E-B468-40C88CC28AE6} = {8CA219AD-B1EC-48A9-B126-7A641D2C758E}
+		{8626E791-CE9F-4A81-9366-3662219F4E03} = {8CA219AD-B1EC-48A9-B126-7A641D2C758E}
 	EndGlobalSection
 EndGlobal

@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tmtxt/Projects/personal-workflow-dotnet/Tmtxt.Logging/Tmtxt.Logging.csproj",
+      "projectUniqueName": "/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/Tmtxt.Logging.csproj",
       "projectName": "Tmtxt.Logging",
-      "projectPath": "/Users/tmtxt/Projects/personal-workflow-dotnet/Tmtxt.Logging/Tmtxt.Logging.csproj",
+      "projectPath": "/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/Tmtxt.Logging.csproj",
       "packagesPath": "/Users/tmtxt/.nuget/packages/",
-      "outputPath": "/Users/tmtxt/Projects/personal-workflow-dotnet/Tmtxt.Logging/obj/",
+      "outputPath": "/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ffdb45-1e7b-4d1e-868d-9483a85a3e99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalWorkflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalWorkflow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalWorkflow/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalWorkflow/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonalWorkflow.sln" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalWorkflow.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tmtxt.Logging/ILogTrail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tmtxt.Logging/ILogTrail.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,14 +31,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Logging/Tmtxt.Logging.Console/Program.cs">
+        <entry file="file://$PROJECT_DIR$/Logging/Tmtxt.Logging.ConsoleApp/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="48">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <marker date="1563679497519" expanded="true" signature="46:187" ph="{...}" />
-                <marker date="1563679497519" expanded="true" signature="66:185" ph="{...}" />
-                <marker date="1563679497519" expanded="true" signature="112:179" ph="{...}" />
+                <marker date="1563679562222" expanded="true" signature="49:190" ph="{...}" />
+                <marker date="1563679562222" expanded="true" signature="69:188" ph="{...}" />
+                <marker date="1563679562222" expanded="true" signature="115:182" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -65,8 +64,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Tmtxt.Logging/Constants/LogLevel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Logging/Tmtxt.Logging.Console/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tmtxt.Logging/ILogTrail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Logging/Tmtxt.Logging.ConsoleApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -75,6 +74,7 @@
         <option value="$PROJECT_DIR$/Tmtxt.Logging/Constants/LogLevel.cs" />
         <option value="$PROJECT_DIR$/Tmtxt.Logging/ILogTrail.cs" />
         <option value="$PROJECT_DIR$/Logging/Tmtxt.Logging.Console/Program.cs" />
+        <option value="$PROJECT_DIR$/Logging/Tmtxt.Logging.ConsoleApp/Program.cs" />
       </list>
     </option>
   </component>
@@ -112,18 +112,7 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="PersonalWorkflow" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Tmtxt.Logging" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="PersonalWorkflow" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Tmtxt.Logging" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Constants" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="PersonalWorkflow" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Tmtxt.Logging.Console" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Logging" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -188,12 +177,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563678357585</updated>
-      <workItem from="1563678360610" duration="1108000" />
+      <workItem from="1563678360610" duration="1254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1108000" />
+    <option name="totallyTimeSpent" value="1254000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,11 +268,18 @@
     <entry file="file://$PROJECT_DIR$/Logging/Tmtxt.Logging.Console/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logging/Tmtxt.Logging.ConsoleApp/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <marker date="1563679497519" expanded="true" signature="46:187" ph="{...}" />
-            <marker date="1563679497519" expanded="true" signature="66:185" ph="{...}" />
-            <marker date="1563679497519" expanded="true" signature="112:179" ph="{...}" />
+            <marker date="1563679562222" expanded="true" signature="49:190" ph="{...}" />
+            <marker date="1563679562222" expanded="true" signature="69:188" ph="{...}" />
+            <marker date="1563679562222" expanded="true" signature="115:182" ph="{...}" />
           </folding>
         </state>
       </provider>

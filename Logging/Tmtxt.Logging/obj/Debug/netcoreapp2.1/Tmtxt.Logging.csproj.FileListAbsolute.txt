@@ -1,0 +1,9 @@
+/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/bin/Debug/netcoreapp2.1/Tmtxt.Logging.deps.json
+/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/bin/Debug/netcoreapp2.1/Tmtxt.Logging.dll
+/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/bin/Debug/netcoreapp2.1/Tmtxt.Logging.pdb
+/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/obj/Debug/netcoreapp2.1/Tmtxt.Logging.csprojAssemblyReference.cache
+/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/obj/Debug/netcoreapp2.1/Tmtxt.Logging.csproj.CoreCompileInputs.cache
+/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/obj/Debug/netcoreapp2.1/Tmtxt.Logging.AssemblyInfoInputs.cache
+/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/obj/Debug/netcoreapp2.1/Tmtxt.Logging.AssemblyInfo.cs
+/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/obj/Debug/netcoreapp2.1/Tmtxt.Logging.dll
+/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/obj/Debug/netcoreapp2.1/Tmtxt.Logging.pdb
