@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ffdb45-1e7b-4d1e-868d-9483a85a3e99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tmtxt.Logging/Constants/LogLevel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tmtxt.Logging/ILogTrail.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalWorkflow/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalWorkflow/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PersonalWorkflow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PersonalWorkflow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tmtxt.Logging/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tmtxt.Logging/Tmtxt.Logging.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tmtxt.Logging/Tmtxt.Logging.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalWorkflow.sln" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalWorkflow.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tmtxt.Logging/ILogTrail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tmtxt.Logging/ILogTrail.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,18 +14,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tmtxt.Logging/ILogTrail.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="128">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding>
-                <marker date="1563679034056" expanded="true" signature="6:44" ph="..." />
-                <marker date="1563679034056" expanded="true" signature="69:646" ph="{...}" />
-                <marker date="1563679034056" expanded="true" signature="76:139" ph="///  ... " />
-                <marker date="1563679034056" expanded="true" signature="170:644" ph="{...}" />
-                <marker date="1563679034056" expanded="true" signature="185:442" ph="///  ... " />
-                <marker date="1563679034056" expanded="true" signature="540:616" ph="///  ... " />
+                <marker date="1563679197671" expanded="true" signature="6:44" ph="..." />
+                <marker date="1563679197671" expanded="true" signature="69:727" ph="{...}" />
+                <marker date="1563679197671" expanded="true" signature="76:220" ph="///  ... " />
+                <marker date="1563679197671" expanded="true" signature="251:725" ph="{...}" />
+                <marker date="1563679197671" expanded="true" signature="266:523" ph="///  ... " />
+                <marker date="1563679197671" expanded="true" signature="621:697" ph="///  ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Logging/Tmtxt.Logging.Console/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <marker date="1563679497519" expanded="true" signature="46:187" ph="{...}" />
+                <marker date="1563679497519" expanded="true" signature="66:185" ph="{...}" />
+                <marker date="1563679497519" expanded="true" signature="112:179" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -38,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/Tmtxt.Logging/Constants/LogLevel.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <marker date="1563678903425" expanded="true" signature="33:190" ph="{...}" />
                 <marker date="1563678903425" expanded="true" signature="60:188" ph="{...}" />
@@ -54,6 +65,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Tmtxt.Logging/Constants/LogLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Logging/Tmtxt.Logging.Console/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Tmtxt.Logging/ILogTrail.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -62,6 +74,7 @@
         <option value="$PROJECT_DIR$/Tmtxt.Logging/Class1.cs" />
         <option value="$PROJECT_DIR$/Tmtxt.Logging/Constants/LogLevel.cs" />
         <option value="$PROJECT_DIR$/Tmtxt.Logging/ILogTrail.cs" />
+        <option value="$PROJECT_DIR$/Logging/Tmtxt.Logging.Console/Program.cs" />
       </list>
     </option>
   </component>
@@ -107,6 +120,11 @@
               <item name="Tmtxt.Logging" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Constants" type="24d0babc:SolutionExplorerModelNode" />
             </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PersonalWorkflow" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tmtxt.Logging.Console" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -140,6 +158,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -150,12 +188,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563678357585</updated>
-      <workItem from="1563678360610" duration="659000" />
+      <workItem from="1563678360610" duration="1108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="659000" />
+    <option name="totallyTimeSpent" value="1108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -168,7 +206,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -216,7 +253,7 @@
     <entry file="file://$PROJECT_DIR$/Tmtxt.Logging/Constants/LogLevel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <marker date="1563678903425" expanded="true" signature="33:190" ph="{...}" />
             <marker date="1563678903425" expanded="true" signature="60:188" ph="{...}" />
@@ -226,15 +263,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tmtxt.Logging/ILogTrail.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="128">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
-            <marker date="1563679034056" expanded="true" signature="6:44" ph="..." />
-            <marker date="1563679034056" expanded="true" signature="69:646" ph="{...}" />
-            <marker date="1563679034056" expanded="true" signature="76:139" ph="///  ... " />
-            <marker date="1563679034056" expanded="true" signature="170:644" ph="{...}" />
-            <marker date="1563679034056" expanded="true" signature="185:442" ph="///  ... " />
-            <marker date="1563679034056" expanded="true" signature="540:616" ph="///  ... " />
+            <marker date="1563679197671" expanded="true" signature="6:44" ph="..." />
+            <marker date="1563679197671" expanded="true" signature="69:727" ph="{...}" />
+            <marker date="1563679197671" expanded="true" signature="76:220" ph="///  ... " />
+            <marker date="1563679197671" expanded="true" signature="251:725" ph="{...}" />
+            <marker date="1563679197671" expanded="true" signature="266:523" ph="///  ... " />
+            <marker date="1563679197671" expanded="true" signature="621:697" ph="///  ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logging/Tmtxt.Logging.Console/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1563679497519" expanded="true" signature="46:187" ph="{...}" />
+            <marker date="1563679497519" expanded="true" signature="66:185" ph="{...}" />
+            <marker date="1563679497519" expanded="true" signature="112:179" ph="{...}" />
           </folding>
         </state>
       </provider>

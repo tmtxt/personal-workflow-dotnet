@@ -5,6 +5,7 @@ namespace Tmtxt.Logging
 {
     /// <summary>
     /// Interface for LogTrail
+    /// A LogTrail holds all the related messages and flush out at the same time
     /// </summary>
     public interface ILogTrail
     {
