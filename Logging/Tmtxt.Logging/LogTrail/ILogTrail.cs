@@ -1,7 +1,7 @@
 using System;
 using Tmtxt.Logging.Constants;
 
-namespace Tmtxt.Logging
+namespace Tmtxt.Logging.LogTrail
 {
     /// <summary>
     /// Interface for LogTrail
@@ -16,7 +16,7 @@ namespace Tmtxt.Logging
         /// <param name="title"></param>
         /// <param name="message"></param>
         /// <param name="startedAt"></param>
-        void Add(LogLevel logLevel, string title, object message, DateTime? startedAt);
+        void Add(LogLevel logLevel, string title, object message, DateTime? startedAt = null);
 
         /// <summary>
         /// Flush out this log instance

@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Tmtxt.Logging/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Tmtxt.Logging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tmtxt.Logging.dll": {}
+        }
       }
     }
   },
@@ -681,11 +691,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Tmtxt.Logging/1.0.0": {
+      "type": "project",
+      "path": "../Tmtxt.Logging/Tmtxt.Logging.csproj",
+      "msbuildProject": "../Tmtxt.Logging/Tmtxt.Logging.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Tmtxt.Logging >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -716,7 +732,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/Tmtxt.Logging.csproj": {
+              "projectPath": "/Users/tmtxt/Projects/personal-workflow-dotnet/Logging/Tmtxt.Logging/Tmtxt.Logging.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

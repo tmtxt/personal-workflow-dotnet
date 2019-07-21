@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "Tmtxt.Logging.ConsoleApp/1.0.0": {
+        "dependencies": {
+          "Tmtxt.Logging": "1.0.0"
+        },
         "runtime": {
           "Tmtxt.Logging.ConsoleApp.dll": {}
+        }
+      },
+      "Tmtxt.Logging/1.0.0": {
+        "runtime": {
+          "Tmtxt.Logging.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Tmtxt.Logging.ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tmtxt.Logging/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

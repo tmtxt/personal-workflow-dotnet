@@ -1,4 +1,5 @@
 ﻿using System;
+using Tmtxt.Logging.Constants;
 
 namespace Tmtxt.Logging.ConsoleApp
 {
@@ -6,7 +7,11 @@ namespace Tmtxt.Logging.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var logTrail = new LogTrail.LogTrail();
+
+            logTrail.Add(LogLevel.Info, "Event 1", "First message");
+
+            Console.WriteLine("End");
         }
     }
 }
