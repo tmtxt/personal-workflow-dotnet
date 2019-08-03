@@ -4,8 +4,12 @@ using Tmtxt.Logging.Constants;
 
 namespace Tmtxt.Logging.LogTrail
 {
-    public class LogTrail : ILogTrail
+    public class LogTrace : ILogTrace
     {
+        #region Constructors
+
+        #endregion
+
         #region Props
 
         /// <summary>
@@ -20,7 +24,7 @@ namespace Tmtxt.Logging.LogTrail
 
         #endregion
 
-        #region Implement ILogTrail
+        #region Implement ILogTrace
 
         public void Push(LogLevel logLevel, string title, object message, DateTime? startedAt = null)
         {
@@ -33,8 +37,11 @@ namespace Tmtxt.Logging.LogTrail
 
         public void Flush()
         {
-            throw new NotImplementedException();
         }
+
+        #endregion
+
+        #region Helpers
 
         #endregion
     }

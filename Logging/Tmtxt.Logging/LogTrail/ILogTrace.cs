@@ -7,7 +7,7 @@ namespace Tmtxt.Logging.LogTrail
     /// Interface for LogTrail
     /// A LogTrail holds all the related messages and flush out at the same time
     /// </summary>
-    public interface ILogTrail
+    public interface ILogTrace
     {
         /// <summary>
         /// Add a new log entry to the instance

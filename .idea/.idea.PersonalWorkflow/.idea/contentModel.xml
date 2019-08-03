@@ -17,12 +17,13 @@
             <e p="LogLevel.cs" t="Include" />
           </e>
           <e p="Logger" t="Include">
+            <e p="ConsoleLogger.cs" t="Include" />
             <e p="ILogger.cs" t="Include" />
           </e>
           <e p="LogTrail" t="Include">
-            <e p="ILogTrail.cs" t="Include" />
+            <e p="ILogTrace.cs" t="Include" />
             <e p="LogEntry.cs" t="Include" />
-            <e p="LogTrail.cs" t="Include" />
+            <e p="LogTrace.cs" t="Include" />
           </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
