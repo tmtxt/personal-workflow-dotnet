@@ -1,7 +1,7 @@
 using System;
 using Tmtxt.Logging.Constants;
 
-namespace Tmtxt.Logging.LogTrail
+namespace Tmtxt.Logging.LogTrace
 {
     /// <summary>
     /// Interface for LogTrail

@@ -1,4 +1,4 @@
-using System.Collections;
+using System.Collections.Generic;
 using Tmtxt.Logging.Constants;
 
 namespace Tmtxt.Logging.Logger
@@ -8,6 +8,6 @@ namespace Tmtxt.Logging.Logger
     /// </summary>
     public interface ILogger
     {
-        void Log(LogLevel logLevel, string message, IDictionary props);
+        void Log(LogLevel logLevel, string message, IDictionary<string, object> props);
     }
 }

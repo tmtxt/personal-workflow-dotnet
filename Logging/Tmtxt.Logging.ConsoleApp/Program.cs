@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using Tmtxt.Logging.Constants;
 using Tmtxt.Logging.Logger;
 
@@ -8,13 +8,11 @@ namespace Tmtxt.Logging.ConsoleApp
     {
         static void Main(string[] args)
         {
-//            var logTrail = new LogTrail.LogTrail(new ConsoleLogger());
+            var logger = new ConsoleLogger();
+            var logTrace = new LogTrace.LogTrace(new List<ILogger> { logger });
 
-            var logTrail = new LogTrail.LogTrace();
-            logTrail.Push(LogLevel.Info, "Event 1", "First message");
-            logTrail.Flush();
-
-            Console.WriteLine("End");
+            logTrace.Push(LogLevel.Info, "title 1", "message 1");
+            logTrace.Flush();
         }
     }
 }
