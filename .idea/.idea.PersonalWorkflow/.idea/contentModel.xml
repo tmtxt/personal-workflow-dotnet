@@ -9,6 +9,20 @@
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Config" t="Include">
+        <e p="Tmtxt.Config" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Class1.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netstandard2.0" t="Include">
+                <e p="Tmtxt.Config.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Tmtxt.Config.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
       <e p="Logging" t="Include">
         <e p="Tmtxt.Logging" t="IncludeRecursive">
           <e p=".gitignore" t="Include" />
