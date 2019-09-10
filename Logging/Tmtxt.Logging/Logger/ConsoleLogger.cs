@@ -11,6 +11,7 @@ namespace Tmtxt.Logging.Logger
         {
             var strLogLevel = logLevel.ToString().ToUpper();
             Console.WriteLine(logLevel.ToString());
+            Console.WriteLine(message);
         }
     }
 }
