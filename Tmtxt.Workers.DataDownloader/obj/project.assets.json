@@ -207,6 +207,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Tmtxt.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Tmtxt.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tmtxt.Models.dll": {}
+        }
+      },
+      "Tmtxt.WorkerBase/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Tmtxt.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tmtxt.WorkerBase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tmtxt.WorkerBase.dll": {}
+        }
       }
     }
   },
@@ -679,11 +702,22 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Tmtxt.Models/1.0.0": {
+      "type": "project",
+      "path": "../Lib/Tmtxt.Models/Tmtxt.Models.csproj",
+      "msbuildProject": "../Lib/Tmtxt.Models/Tmtxt.Models.csproj"
+    },
+    "Tmtxt.WorkerBase/1.0.0": {
+      "type": "project",
+      "path": "../Lib/Tmtxt.WorkerBase/Tmtxt.WorkerBase.csproj",
+      "msbuildProject": "../Lib/Tmtxt.WorkerBase/Tmtxt.WorkerBase.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Tmtxt.WorkerBase >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -716,7 +750,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Lib\\Tmtxt.WorkerBase\\Tmtxt.WorkerBase.csproj": {
+              "projectPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Lib\\Tmtxt.WorkerBase\\Tmtxt.WorkerBase.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

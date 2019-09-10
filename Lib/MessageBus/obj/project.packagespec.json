@@ -1,16 +1,16 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Tmtxt.Workers.DataDownloader\\Tmtxt.Workers.DataDownloader.csproj",
-    "projectName": "Tmtxt.Workers.DataDownloader",
-    "projectPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Tmtxt.Workers.DataDownloader\\Tmtxt.Workers.DataDownloader.csproj",
-    "outputPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Tmtxt.Workers.DataDownloader\\obj\\",
+    "projectUniqueName": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Lib\\MessageBus\\MessageBus.csproj",
+    "projectName": "MessageBus",
+    "projectPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Lib\\MessageBus\\MessageBus.csproj",
+    "outputPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Lib\\MessageBus\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
-      "netcoreapp2.2"
+      "netstandard2.0"
     ],
     "sources": {
       "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -18,10 +18,10 @@
       "https://nuget.fmgsuite.com/nuget": {}
     },
     "frameworks": {
-      "netcoreapp2.2": {
+      "netstandard2.0": {
         "projectReferences": {
-          "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Lib\\Tmtxt.WorkerBase\\Tmtxt.WorkerBase.csproj": {
-            "projectPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Lib\\Tmtxt.WorkerBase\\Tmtxt.WorkerBase.csproj"
+          "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Lib\\Tmtxt.Models\\Tmtxt.Models.csproj": {
+            "projectPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Lib\\Tmtxt.Models\\Tmtxt.Models.csproj"
           }
         }
       }
@@ -33,12 +33,12 @@
     }
   },
   "frameworks": {
-    "netcoreapp2.2": {
+    "netstandard2.0": {
       "dependencies": {
-        "Microsoft.NETCore.App": {
+        "NETStandard.Library": {
           "suppressParent": "All",
           "target": "Package",
-          "version": "[2.2.0, )",
+          "version": "[2.0.3, )",
           "autoReferenced": true
         }
       },
