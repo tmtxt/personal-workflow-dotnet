@@ -57,6 +57,18 @@
           <e p="Program.cs" t="Include" />
           <e p="Tmtxt.Logging.ConsoleApp.csproj" t="IncludeRecursive" />
         </e>
+        <e p="Tmtxt.WorkerBase" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Class1.cs" t="Include" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="Tmtxt.WorkerBase.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Tmtxt.WorkerBase.csproj" t="IncludeRecursive" />
+        </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="PersonalWorkflow.sln" t="IncludeFlat" />
