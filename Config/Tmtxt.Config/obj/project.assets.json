@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -45,7 +45,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -180,30 +180,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/tmtxt/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\me\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tmtxt/Projects/personal-workflow-dotnet/Config/Tmtxt.Config/Tmtxt.Config.csproj",
+      "projectUniqueName": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Config\\Tmtxt.Config\\Tmtxt.Config.csproj",
       "projectName": "Tmtxt.Config",
-      "projectPath": "/Users/tmtxt/Projects/personal-workflow-dotnet/Config/Tmtxt.Config/Tmtxt.Config.csproj",
-      "packagesPath": "/Users/tmtxt/.nuget/packages/",
-      "outputPath": "/Users/tmtxt/Projects/personal-workflow-dotnet/Config/Tmtxt.Config/obj/",
+      "projectPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Config\\Tmtxt.Config\\Tmtxt.Config.csproj",
+      "packagesPath": "C:\\Users\\me\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Config\\Tmtxt.Config\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/tmtxt/.config/NuGet/NuGet.Config"
+        "C:\\Users\\me\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.fmgsuite.com/nuget/": {}
+        "https://nuget.fmgsuite.com/nuget": {}
       },
       "frameworks": {
         "netstandard2.0": {

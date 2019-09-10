@@ -1,17 +1,22 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/tmtxt/Projects/personal-workflow-dotnet/Config/Tmtxt.Config/Tmtxt.Config.csproj",
+    "projectUniqueName": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Config\\Tmtxt.Config\\Tmtxt.Config.csproj",
     "projectName": "Tmtxt.Config",
-    "projectPath": "/Users/tmtxt/Projects/personal-workflow-dotnet/Config/Tmtxt.Config/Tmtxt.Config.csproj",
-    "outputPath": "/Users/tmtxt/Projects/personal-workflow-dotnet/Config/Tmtxt.Config/obj/",
+    "projectPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Config\\Tmtxt.Config\\Tmtxt.Config.csproj",
+    "outputPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Config\\Tmtxt.Config\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netstandard2.0"
     ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {},
+      "https://nuget.fmgsuite.com/nuget": {}
+    },
     "frameworks": {
       "netstandard2.0": {
         "projectReferences": {}
