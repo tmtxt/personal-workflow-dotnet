@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Config\\Tmtxt.Config\\Tmtxt.Config.csproj",
+      "projectUniqueName": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Lib\\Tmtxt.Config\\Tmtxt.Config.csproj",
       "projectName": "Tmtxt.Config",
-      "projectPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Config\\Tmtxt.Config\\Tmtxt.Config.csproj",
+      "projectPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Lib\\Tmtxt.Config\\Tmtxt.Config.csproj",
       "packagesPath": "C:\\Users\\me\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Config\\Tmtxt.Config\\obj\\",
+      "outputPath": "C:\\Users\\me\\Projects\\personal-workflow-dotnet\\Lib\\Tmtxt.Config\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,10 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tmtxt.Logging", "Logging\Tmtxt.Logging\Tmtxt.Logging.csproj", "{8626E791-CE9F-4A81-9366-3662219F4E03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tmtxt.Logging", "Lib\Tmtxt.Logging\Tmtxt.Logging.csproj", "{8626E791-CE9F-4A81-9366-3662219F4E03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tmtxt.Logging.ConsoleApp", "Logging\Tmtxt.Logging.ConsoleApp\Tmtxt.Logging.ConsoleApp.csproj", "{373391AE-B32D-428E-B468-40C88CC28AE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tmtxt.Logging.ConsoleApp", "Lib\Tmtxt.Logging.ConsoleApp\Tmtxt.Logging.ConsoleApp.csproj", "{373391AE-B32D-428E-B468-40C88CC28AE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tmtxt.Config", "Config\Tmtxt.Config\Tmtxt.Config.csproj", "{F4F00CBB-C000-4153-A94F-DF7BC2B65800}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tmtxt.Config", "Lib\Tmtxt.Config\Tmtxt.Config.csproj", "{F4F00CBB-C000-4153-A94F-DF7BC2B65800}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{9BF707A2-7B5B-49EF-893A-E56E42E2D266}"
 EndProject
