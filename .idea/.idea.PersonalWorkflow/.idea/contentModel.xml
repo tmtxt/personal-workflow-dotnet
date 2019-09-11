@@ -5,18 +5,6 @@
     <e p="C:\Users\me\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_PersonalWorkflow.-1096873975.00" t="ExcludeRecursive" />
     <e p="C:\Users\me\Projects\personal-workflow-dotnet" t="IncludeFlat">
       <e p="Lib" t="Include">
-        <e p="MessageBus" t="IncludeRecursive">
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="IMessageBusClient.cs" t="Include" />
-          <e p="MessageBus.csproj" t="IncludeRecursive" />
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netstandard2.0" t="Include">
-                <e p="MessageBus.AssemblyInfo.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-        </e>
         <e p="Tmtxt.Config" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
           <e p="Configs" t="Include">
@@ -71,18 +59,11 @@
         </e>
         <e p="Tmtxt.Models" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
-          <e p="MessageBus" t="Include">
-            <e p="Message.cs" t="Include" />
+          <e p="Messages" t="Include">
             <e p="MessageBodies" t="Include">
               <e p="DataDownloader.cs" t="Include" />
             </e>
             <e p="MessageBody.cs" t="Include" />
-            <e p="Messages" t="Include">
-              <e p="DataDownloader" t="Include">
-                <e p="Message.cs" t="Include" />
-                <e p="MessageBody.cs" t="Include" />
-              </e>
-            </e>
           </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
@@ -103,7 +84,7 @@
             </e>
           </e>
           <e p="Tmtxt.WorkerBase.csproj" t="IncludeRecursive" />
-          <e p="WorkerBase.cs" t="Include" />
+          <e p="Worker.cs" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
