@@ -75,7 +75,12 @@
           <e p="Tmtxt.Models.csproj" t="IncludeRecursive" />
         </e>
         <e p="Tmtxt.WorkerBase" t="IncludeRecursive">
+          <e p="Behaviors" t="Include">
+            <e p="ExceptionHandlingBehavior.cs" t="Include" />
+          </e>
           <e p="bin" t="ExcludeRecursive" />
+          <e p="LambdaSQSWorker.cs" t="Include" />
+          <e p="MessageWorker.cs" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netstandard2.0" t="Include">
@@ -91,6 +96,7 @@
       <e p="PersonalWorkflow.sln" t="IncludeFlat" />
       <e p="Tmtxt.Workers.DataDownloader" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="MessageHandler.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">

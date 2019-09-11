@@ -1,20 +1,20 @@
-using System.ComponentModel.Design;
 using Autofac;
 using Microsoft.Extensions.DependencyInjection;
-using Tmtxt.WorkerBase;
 
-namespace Tmtxt.Workers.DataDownloader
+namespace Tmtxt.WorkerBase
 {
-    public class Worker : LambdaSQSWorker
+    /// <summary>
+    /// Base class for Message Bus worker (SQS, Google Pub Sub, Kafka, RabbitMQ,...)
+    /// </summary>
+    public abstract class MessageWorker : Worker
     {
         protected override void ConfigureServiceCollection(ServiceCollection serviceCollection)
         {
-            base.ConfigureServiceCollection(serviceCollection);
         }
 
         protected override void ConfigureAutofacContainer(ContainerBuilder containerBuilder)
         {
-            base.ConfigureAutofacContainer(containerBuilder);
+
         }
     }
 }

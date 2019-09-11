@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
@@ -11,7 +12,11 @@ namespace Tmtxt.WorkerBase
     {
         public Worker()
         {
+            var container = ConfigureAutofacContainer();
+            AutofacContainer = container;
         }
+
+        protected readonly IContainer AutofacContainer;
 
         #region IOC Container
 
@@ -28,7 +33,7 @@ namespace Tmtxt.WorkerBase
 
             // Register the services here
 
-            // Call the abstract method so the derived class can register its own services
+            // Call the virtual method so the derived class can register its own services
             ConfigureServiceCollection(serviceCollection);
 
             // Return
@@ -40,7 +45,9 @@ namespace Tmtxt.WorkerBase
         /// using .Net Core ServiceCollection
         /// </summary>
         /// <param name="serviceCollection"></param>
-        protected abstract void ConfigureServiceCollection(ServiceCollection serviceCollection);
+        protected virtual void ConfigureServiceCollection(ServiceCollection serviceCollection)
+        {
+        }
 
         #endregion
 
@@ -59,7 +66,7 @@ namespace Tmtxt.WorkerBase
 
             // Register the services here
 
-            // Call the abstract method so the derived class can register its own services
+            // Call the virtual method so the derived class can register its own services
             ConfigureAutofacContainer(containerBuilder);
 
             var container = containerBuilder.Build();
@@ -70,8 +77,12 @@ namespace Tmtxt.WorkerBase
         /// Used for the derived class to register its own extra services with the IOC container
         /// </summary>
         /// <param name="containerBuilder"></param>
-        protected abstract void ConfigureAutofacContainer(ContainerBuilder containerBuilder);
+        protected virtual void ConfigureAutofacContainer(ContainerBuilder containerBuilder)
+        {
+        }
 
         #endregion
+
+        public abstract Task StartAsync();
     }
 }
