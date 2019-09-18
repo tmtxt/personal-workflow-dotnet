@@ -1,6 +1,9 @@
 namespace Tmtxt.Config.Configs
 {
-    public interface IBaseConfig
+    /// <summary>
+    /// Common, shared configuration
+    /// </summary>
+    public interface IBaseConfig : IConfig
     {
         string Environment { get; set; }
     }

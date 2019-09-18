@@ -1,4 +1,5 @@
 ﻿using System;
+using Tmtxt.Config.Configs;
 using Tmtxt.Config.Loaders;
 
 namespace Tmtxt.Config.Sample
@@ -7,14 +8,18 @@ namespace Tmtxt.Config.Sample
     {
         static void Main(string[] args)
         {
+            // Config loader
             var configurationLoader = new ConfigurationLoader();
-            var configuration = configurationLoader.LoadConfigurationValues();
 
-            // try loading these values
-            var test = configuration["Environment"];
-            var s = configuration["Test"];
-            var s1 = configuration["Logging"];
-            var s2 = configuration["Logging:LogLevel:Default"];
+            // Try load config key-value pairs
+            var configuration = configurationLoader.LoadConfigurationValues();
+            Console.WriteLine(configuration["ENVIRONMENT"]);
+            Console.WriteLine(configuration["Logging"]);
+            Console.WriteLine(configuration["Logging:LogLevel:Default"]);
+
+            // Try building the BaseConfig object
+            var baseConfig = new BaseConfig(configurationLoader);
+            Console.WriteLine(baseConfig.Environment);
         }
     }
 }

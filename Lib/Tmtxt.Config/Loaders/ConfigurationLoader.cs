@@ -8,8 +8,13 @@ namespace Tmtxt.Config.Loaders
 {
     public class ConfigurationLoader : IConfigurationLoader
     {
+        private IConfiguration _configuration;
+
+        /// <inheritdoc />
         public IConfiguration LoadConfigurationValues()
         {
+            if (_configuration != null) return _configuration;
+
             // Init the builder
             var builder = new ConfigurationBuilder();
 
@@ -33,8 +38,11 @@ namespace Tmtxt.Config.Loaders
             // Environment variables should take higher precedence and override the other values if possible
             builder.AddEnvironmentVariables();
 
+            // Define and implement other configuration sources you want here
+
             // Build
-            return builder.Build();
+            _configuration = builder.Build();
+            return _configuration;
         }
     }
 }

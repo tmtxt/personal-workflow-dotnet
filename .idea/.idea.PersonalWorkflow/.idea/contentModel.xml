@@ -10,10 +10,17 @@
           <e p="Configs" t="Include">
             <e p="BaseConfig.cs" t="Include" />
             <e p="IBaseConfig.cs" t="Include" />
+            <e p="IConfig.cs" t="Include" />
           </e>
           <e p="Constants" t="Include">
             <e p="ConfigTypeConstants.cs" t="Include" />
             <e p="EnvironmentTypeEnum.cs" t="Include" />
+          </e>
+          <e p="Exceptions" t="Include">
+            <e p="RequiredConfigurationMissingException.cs" t="Include" />
+          </e>
+          <e p="Extensions" t="Include">
+            <e p="ConfigurationParserExtension.cs" t="Include" />
           </e>
           <e p="Loaders" t="Include">
             <e p="ConfigurationLoader.cs" t="Include" />
@@ -26,7 +33,6 @@
               </e>
             </e>
           </e>
-          <e p="Services" t="Include" />
           <e p="Tmtxt.Config.csproj" t="IncludeRecursive" />
         </e>
         <e p="Tmtxt.Logging" t="IncludeRecursive">
@@ -115,7 +121,6 @@
             </e>
           </e>
           <e p="Program.cs" t="Include" />
-          <e p="Properties" t="Include" />
           <e p="Tmtxt.Config.Sample.csproj" t="IncludeRecursive" />
         </e>
       </e>
