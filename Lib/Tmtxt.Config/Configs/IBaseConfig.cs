@@ -1,3 +1,5 @@
+using Tmtxt.Config.Constants;
+
 namespace Tmtxt.Config.Configs
 {
     /// <summary>
@@ -5,6 +7,6 @@ namespace Tmtxt.Config.Configs
     /// </summary>
     public interface IBaseConfig : IConfig
     {
-        string Environment { get; set; }
+        EnvironmentTypeEnum Environment { get; set; }
     }
 }

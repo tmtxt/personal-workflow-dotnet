@@ -1,3 +1,4 @@
+using Tmtxt.Config.Constants;
 using Tmtxt.Config.Extensions;
 using Tmtxt.Config.Loaders;
 
@@ -11,14 +12,14 @@ namespace Tmtxt.Config.Configs
         {
             var configuration = configurationLoader.LoadConfigurationValues();
 
-            Environment = configuration.GetRequiredString("ENVIRONMENT");
+            Environment = configuration.GetRequiredEnum<EnvironmentTypeEnum>("ENVIRONMENT");
         }
 
         #endregion
 
         #region Implement IBaseConfig
 
-        public string Environment { get; set; }
+        public EnvironmentTypeEnum Environment { get; set; }
 
         #endregion
     }
