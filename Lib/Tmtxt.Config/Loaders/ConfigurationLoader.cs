@@ -14,7 +14,8 @@ namespace Tmtxt.Config.Loaders
             var builder = new ConfigurationBuilder();
 
             // Set the path to the EntryAssembly location
-            builder.SetBasePath(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location));
+            var path = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
+            builder.SetBasePath(path);
 
             // Load config key-value pairs in this order
 

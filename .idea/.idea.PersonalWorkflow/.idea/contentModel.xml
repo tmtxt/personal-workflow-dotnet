@@ -105,6 +105,7 @@
       <e p="PersonalWorkflow.sln" t="IncludeFlat" />
       <e p="Samples" t="Include">
         <e p="Tmtxt.Config.Sample" t="IncludeRecursive">
+          <e p="appsettings.json" t="Include" />
           <e p="bin" t="ExcludeRecursive" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
@@ -114,6 +115,7 @@
             </e>
           </e>
           <e p="Program.cs" t="Include" />
+          <e p="Properties" t="Include" />
           <e p="Tmtxt.Config.Sample.csproj" t="IncludeRecursive" />
         </e>
       </e>
