@@ -11,6 +11,14 @@
             <e p="BaseConfig.cs" t="Include" />
             <e p="IBaseConfig.cs" t="Include" />
           </e>
+          <e p="Constants" t="Include">
+            <e p="ConfigTypeConstants.cs" t="Include" />
+            <e p="EnvironmentTypeEnum.cs" t="Include" />
+          </e>
+          <e p="Loaders" t="Include">
+            <e p="ConfigurationLoader.cs" t="Include" />
+            <e p="IConfigurationLoader.cs" t="Include" />
+          </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netstandard2.0" t="Include">
@@ -18,6 +26,7 @@
               </e>
             </e>
           </e>
+          <e p="Services" t="Include" />
           <e p="Tmtxt.Config.csproj" t="IncludeRecursive" />
         </e>
         <e p="Tmtxt.Logging" t="IncludeRecursive">
@@ -94,6 +103,20 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="PersonalWorkflow.sln" t="IncludeFlat" />
+      <e p="Samples" t="Include">
+        <e p="Tmtxt.Config.Sample" t="IncludeRecursive">
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp2.2" t="Include">
+                <e p="Tmtxt.Config.Sample.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Tmtxt.Config.Sample.csproj" t="IncludeRecursive" />
+        </e>
+      </e>
       <e p="Tmtxt.Workers.DataDownloader" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="MessageHandler.cs" t="Include" />
