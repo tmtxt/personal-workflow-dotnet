@@ -5,6 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Tmtxt.Config\Tmtxt.Config.csproj" />
       <ProjectReference Include="..\Tmtxt.Models\Tmtxt.Models.csproj" />
     </ItemGroup>
 

@@ -1,6 +1,7 @@
+using System;
 using System.Threading.Tasks;
 using Autofac;
-using Microsoft.Extensions.DependencyInjection;
+using Tmtxt.Config.Configs;
 
 namespace Tmtxt.WorkerBase
 {
@@ -9,18 +10,13 @@ namespace Tmtxt.WorkerBase
     /// </summary>
     public abstract class MessageWorker : Worker
     {
-        protected override void ConfigureServiceCollection(ServiceCollection serviceCollection)
-        {
-        }
-
-        protected override void ConfigureAutofacContainer(ContainerBuilder containerBuilder)
-        {
-
-        }
-
         public override async Task StartAsync()
         {
-
+            using (var scope = AutofacContainer.BeginLifetimeScope())
+            {
+                var commonConfig = scope.Resolve<ICommonConfig>();
+                Console.WriteLine(commonConfig.SystemType);
+            }
         }
     }
 }

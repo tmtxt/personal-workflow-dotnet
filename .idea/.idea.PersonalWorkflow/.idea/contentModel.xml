@@ -97,6 +97,7 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="PersonalWorkflow.sln" t="IncludeFlat" />
       <e p="Tmtxt.Workers.DataDownloader" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

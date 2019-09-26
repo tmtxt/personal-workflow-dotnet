@@ -2,6 +2,8 @@ using System.Threading.Tasks;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
+using Tmtxt.Config.Configs;
+using Tmtxt.Config.Loaders;
 
 namespace Tmtxt.WorkerBase
 {
@@ -79,6 +81,8 @@ namespace Tmtxt.WorkerBase
         /// <param name="containerBuilder"></param>
         protected virtual void ConfigureAutofacContainer(ContainerBuilder containerBuilder)
         {
+            containerBuilder.RegisterType<ConfigurationLoader>().As<IConfigurationLoader>();
+            containerBuilder.RegisterType<CommonConfig>().As<ICommonConfig>();
         }
 
         #endregion
