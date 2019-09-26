@@ -60,19 +60,6 @@
           </e>
           <e p="Tmtxt.Logging.csproj" t="IncludeRecursive" />
         </e>
-        <e p="Tmtxt.Logging.ConsoleApp" t="IncludeRecursive">
-          <e p=".gitignore" t="Include" />
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netcoreapp2.1" t="Include">
-                <e p="Tmtxt.Logging.ConsoleApp.AssemblyInfo.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Program.cs" t="Include" />
-          <e p="Tmtxt.Logging.ConsoleApp.csproj" t="IncludeRecursive" />
-        </e>
         <e p="Tmtxt.Models" t="IncludeRecursive">
           <e p="bin" t="ExcludeRecursive" />
           <e p="Messages" t="Include">
@@ -110,21 +97,6 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="PersonalWorkflow.sln" t="IncludeFlat" />
-      <e p="Samples" t="Include">
-        <e p="Tmtxt.Config.Sample" t="IncludeRecursive">
-          <e p="appsettings.json" t="Include" />
-          <e p="bin" t="ExcludeRecursive" />
-          <e p="obj" t="ExcludeRecursive">
-            <e p="Debug" t="Include">
-              <e p="netcoreapp2.2" t="Include">
-                <e p="Tmtxt.Config.Sample.AssemblyInfo.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Program.cs" t="Include" />
-          <e p="Tmtxt.Config.Sample.csproj" t="IncludeRecursive" />
-        </e>
-      </e>
       <e p="Tmtxt.Workers.DataDownloader" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="MessageHandler.cs" t="Include" />
