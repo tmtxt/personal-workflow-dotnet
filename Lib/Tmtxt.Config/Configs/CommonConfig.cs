@@ -4,14 +4,16 @@ using Tmtxt.Config.Loaders;
 
 namespace Tmtxt.Config.Configs
 {
-    public class BaseConfig : IBaseConfig
+    public class CommonConfig : ICommonConfig
     {
         #region Constructors
 
-        public BaseConfig(IConfigurationLoader configurationLoader)
+        public CommonConfig(IConfigurationLoader configurationLoader)
         {
+            // Load all configuration keys/values
             var configuration = configurationLoader.LoadConfigurationValues();
 
+            // Build the CommonConfig object
             SystemType = configuration.GetRequiredEnum<SystemTypeEnum>("SYSTEM_TYPE");
         }
 

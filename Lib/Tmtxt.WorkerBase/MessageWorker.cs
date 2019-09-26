@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Autofac;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -13,6 +14,11 @@ namespace Tmtxt.WorkerBase
         }
 
         protected override void ConfigureAutofacContainer(ContainerBuilder containerBuilder)
+        {
+
+        }
+
+        public override async Task StartAsync()
         {
 
         }

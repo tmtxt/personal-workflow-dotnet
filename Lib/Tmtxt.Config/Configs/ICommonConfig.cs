@@ -5,7 +5,7 @@ namespace Tmtxt.Config.Configs
     /// <summary>
     /// Common, shared configuration
     /// </summary>
-    public interface IBaseConfig : IConfig
+    public interface ICommonConfig : IConfig
     {
         SystemTypeEnum SystemType { get; set; }
     }
