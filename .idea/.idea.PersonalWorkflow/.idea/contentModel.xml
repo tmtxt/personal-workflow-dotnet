@@ -14,7 +14,7 @@
           </e>
           <e p="Constants" t="Include">
             <e p="ConfigTypeConstants.cs" t="Include" />
-            <e p="EnvironmentTypeEnum.cs" t="Include" />
+            <e p="SystemTypeEnum.cs" t="Include" />
           </e>
           <e p="Exceptions" t="Include">
             <e p="IncorrectEnumValueException.cs" t="Include" />

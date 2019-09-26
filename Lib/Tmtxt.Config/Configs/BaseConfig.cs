@@ -12,14 +12,14 @@ namespace Tmtxt.Config.Configs
         {
             var configuration = configurationLoader.LoadConfigurationValues();
 
-            Environment = configuration.GetRequiredEnum<EnvironmentTypeEnum>("ENVIRONMENT");
+            SystemType = configuration.GetRequiredEnum<SystemTypeEnum>("SYSTEM_TYPE");
         }
 
         #endregion
 
         #region Implement IBaseConfig
 
-        public EnvironmentTypeEnum Environment { get; set; }
+        public SystemTypeEnum SystemType { get; set; }
 
         #endregion
     }

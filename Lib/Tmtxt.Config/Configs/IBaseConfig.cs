@@ -7,6 +7,6 @@ namespace Tmtxt.Config.Configs
     /// </summary>
     public interface IBaseConfig : IConfig
     {
-        EnvironmentTypeEnum Environment { get; set; }
+        SystemTypeEnum SystemType { get; set; }
     }
 }
