@@ -6,6 +6,7 @@
     <e p="C:\Users\me\Projects\personal-workflow-dotnet" t="IncludeFlat">
       <e p="Lib" t="Include">
         <e p="Tmtxt.Config" t="IncludeRecursive">
+          <e p="AutofacModule.cs" t="Include" />
           <e p="bin" t="ExcludeRecursive" />
           <e p="Configs" t="Include">
             <e p="CommonConfig.cs" t="Include" />

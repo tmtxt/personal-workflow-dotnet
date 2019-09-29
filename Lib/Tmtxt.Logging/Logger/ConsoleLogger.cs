@@ -5,7 +5,6 @@ using Tmtxt.Logging.Constants;
 namespace Tmtxt.Logging.Logger
 {
     public class ConsoleLogger : ILogger
-
     {
         public void Log(LogLevel logLevel, string message, IDictionary<string, object> props)
         {
