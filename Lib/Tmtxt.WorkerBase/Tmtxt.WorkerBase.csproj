@@ -6,6 +6,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Tmtxt.Config\Tmtxt.Config.csproj" />
+      <ProjectReference Include="..\Tmtxt.Logging\Tmtxt.Logging.csproj" />
       <ProjectReference Include="..\Tmtxt.Models\Tmtxt.Models.csproj" />
     </ItemGroup>
 

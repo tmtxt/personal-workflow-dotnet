@@ -79,7 +79,8 @@ namespace Tmtxt.WorkerBase
         /// <param name="containerBuilder"></param>
         protected virtual void ConfigureAutofacContainer(ContainerBuilder containerBuilder)
         {
-            containerBuilder.RegisterModule<Tmtxt.Config.AutofacModule>();
+            containerBuilder.RegisterModule<Config.AutofacModule>();
+            containerBuilder.RegisterModule<Logging.AutofacModule>();
         }
 
         #endregion

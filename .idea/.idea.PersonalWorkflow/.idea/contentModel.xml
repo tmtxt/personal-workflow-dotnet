@@ -39,6 +39,7 @@
         </e>
         <e p="Tmtxt.Logging" t="IncludeRecursive">
           <e p=".gitignore" t="Include" />
+          <e p="AutofacModule.cs" t="Include" />
           <e p="bin" t="ExcludeRecursive" />
           <e p="Constants" t="Include">
             <e p="LogLevel.cs" t="Include" />
@@ -54,7 +55,7 @@
           </e>
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
-              <e p="netcoreapp2.1" t="Include">
+              <e p="netstandard2.0" t="Include">
                 <e p="Tmtxt.Logging.AssemblyInfo.cs" t="Include" />
               </e>
             </e>

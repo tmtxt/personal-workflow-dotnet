@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Text;
 using Tmtxt.Logging.Constants;
 
 namespace Tmtxt.Logging.Logger
@@ -8,9 +9,22 @@ namespace Tmtxt.Logging.Logger
     {
         public void Log(LogLevel logLevel, string message, IDictionary<string, object> props)
         {
-            var strLogLevel = logLevel.ToString().ToUpper();
-            Console.WriteLine(logLevel.ToString());
-            Console.WriteLine(message);
+            // Log Level
+            var stringBuilder = new StringBuilder();
+            stringBuilder.Append(logLevel.ToString().ToUpper()).Append("\n");
+
+            // Log props
+            foreach (var prop in props)
+            {
+                var propMsg = $"{prop.Key} : {prop.Value}\n";
+                stringBuilder.Append(propMsg);
+            }
+
+            // Log message
+            stringBuilder.Append(message).Append("\n");
+
+            // Write
+            Console.WriteLine(stringBuilder.ToString());
         }
     }
 }

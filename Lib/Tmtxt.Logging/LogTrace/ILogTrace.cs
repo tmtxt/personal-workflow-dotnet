@@ -19,6 +19,13 @@ namespace Tmtxt.Logging.LogTrace
         void Push(LogLevel logLevel, string title, object message, DateTime? startedAt = null);
 
         /// <summary>
+        /// Add extra properties to this instance
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="value"></param>
+        void ExtendProps(string key, object value);
+
+        /// <summary>
         /// Flush out this log instance
         /// </summary>
         void Flush();

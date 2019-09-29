@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 using Tmtxt.Logging.Constants;
 
 namespace Tmtxt.Logging.LogTrace
@@ -23,5 +24,15 @@ namespace Tmtxt.Logging.LogTrace
         /// Time elapsed from previous log entry
         /// </summary>
         public double? TimeElapsed { get; set; }
+
+        /// <summary>
+        /// Build the log string for this instance
+        /// </summary>
+        /// <returns></returns>
+        public string BuildLogString()
+        {
+            var message = JsonConvert.SerializeObject(Message, Formatting.Indented);
+            return $"[{LogLevel.ToString().ToUpper()}] - {Title} - {message}";
+        }
     }
 }

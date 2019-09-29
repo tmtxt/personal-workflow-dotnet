@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Tmtxt.Logging.Constants;
 using Tmtxt.Logging.Logger;
 
@@ -11,22 +12,27 @@ namespace Tmtxt.Logging.LogTrace
 
         public LogTrace(IEnumerable<ILogger> loggers)
         {
-            _loggers = loggers;
+            Loggers = loggers;
         }
 
         #endregion
 
-        #region Props
+        #region Other props
 
         /// <summary>
         /// List of loggers
         /// </summary>
-        private readonly IEnumerable<ILogger> _loggers;
+        protected readonly IEnumerable<ILogger> Loggers;
 
         /// <summary>
         /// List of all log entries
         /// </summary>
         protected readonly LinkedList<LogEntry> LogEntries = new LinkedList<LogEntry>();
+
+        /// <summary>
+        /// Extra props
+        /// </summary>
+        protected IDictionary<string, object> Properties = new Dictionary<string, object>();
 
         /// <summary>
         /// Locking
@@ -37,6 +43,7 @@ namespace Tmtxt.Logging.LogTrace
 
         #region Implement ILogTrace
 
+        /// <inheritdoc />
         public void Push(LogLevel logLevel, string title, object message, DateTime? startedAt = null)
         {
             lock (Lock)
@@ -46,17 +53,32 @@ namespace Tmtxt.Logging.LogTrace
             }
         }
 
+        /// <inheritdoc />
+        public void ExtendProps(string key, object value)
+        {
+            Properties[key] = value;
+        }
+
+        /// <inheritdoc />
         public void Flush()
         {
-            foreach (var logger in _loggers)
+            var logString = BuildLogString();
+
+            foreach (var logger in Loggers)
             {
-                logger.Log(LogLevel.Info, "test", new Dictionary<string, object>());
+                logger.Log(LogLevel.Info, logString, Properties);
             }
         }
 
         #endregion
 
         #region Helpers
+
+        private string BuildLogString()
+        {
+            var logStrings = LogEntries.Select((entry, idx) => $"{idx} - {entry.BuildLogString()}");
+            return string.Join("\n", logStrings);
+        }
 
         #endregion
     }
