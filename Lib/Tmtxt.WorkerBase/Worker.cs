@@ -84,7 +84,5 @@ namespace Tmtxt.WorkerBase
         }
 
         #endregion
-
-        public abstract Task StartAsync();
     }
 }

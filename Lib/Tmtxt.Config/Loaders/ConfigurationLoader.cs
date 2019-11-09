@@ -25,7 +25,7 @@ namespace Tmtxt.Config.Loaders
             // Load config key-value pairs in this order
 
             // These json files are the default configuration values for all environments
-            builder.AddJsonFile($"appsettings.{ConfigTypeConstants.Common}.json", true);
+            // builder.AddJsonFile($"appsettings.{ConfigTypeConstants.Common}.json", true);
             builder.AddJsonFile($"appsettings.json", true);
 
             // Specific json files for each specific environment, which can override the values in the above files

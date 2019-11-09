@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\me\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\me\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_PersonalWorkflow.-1096873975.00" t="ExcludeRecursive" />
-    <e p="C:\Users\me\Projects\personal-workflow-dotnet" t="IncludeFlat">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_PersonalWorkflow.-442074202.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/rust_expanded_macros/pHjNMgOH/expansions" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/graphdb-parameters" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/Extensions" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="Lib" t="Include">
         <e p="Tmtxt.Config" t="IncludeRecursive">
           <e p="AutofacModule.cs" t="Include" />
@@ -99,11 +104,11 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="PersonalWorkflow.sln" t="IncludeFlat" />
       <e p="Tmtxt.Workers.DataDownloader" t="IncludeRecursive">
-        <e p="appsettings.json" t="Include" />
+        <e p="appsettings.Local.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.2" t="Include">
+            <e p="netcoreapp2.1" t="Include">
               <e p="Tmtxt.Workers.DataDownloader.AssemblyInfo.cs" t="Include" />
             </e>
           </e>

@@ -12,7 +12,7 @@ namespace Tmtxt.WorkerBase
     /// </summary>
     public abstract class MessageWorker : Worker
     {
-        public override async Task StartAsync()
+        public async Task StartAsync()
         {
             using (var scope = AutofacContainer.BeginLifetimeScope())
             {
